@@ -16,7 +16,7 @@ generation_config = {
 }
 
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-flask",  # You can choose the model variant
+    model_name="gemini-1.5-pro",  # You can choose the model variant
     generation_config=generation_config,
 )
 
