@@ -5,11 +5,8 @@ import os
 from dotenv import load_dotenv
 # load_dotenv()
 # Configure Google Gemini
-# genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-load_dotenv()
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")  
-os.environ['GEMINI_API_KEY'] =  GEMINI_API_KEY
 
 # Set the model and generation config
 generation_config = {
